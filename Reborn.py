@@ -49,7 +49,7 @@ def main():
     print(Logo)
     welcome_user()
 
-    print("1.Show system info\n2.Open nano editor\n3.Show me all tasks\n4.Run Cava\n5.Run Atom\n6.Start VScode\n7.Open Firefox\n8.Start Google Chrome\n9.Run Neovim")
+    print("1.Show system info\n2.Open nano editor\n3.Show me all tasks\n4.Run Cava\n5.Run Atom\n6.Start VScode\n7.Open Firefox\n8.Start Google Chrome\n9.Run Neovim\n10.Run flameshot")
     action = input("\nWhat can I do for you? > ")
 
     if action == "1":
@@ -68,7 +68,9 @@ def main():
         subprocess.run("google-chrome-stable")
     elif action == "9":
         subprocess.run("nvim")
-
+    elif action == "10":
+         subprocess.run("flameshot")
+    
     else:
         print(f"{error_templ} Not an available option!")
 
