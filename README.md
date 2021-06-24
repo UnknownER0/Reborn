@@ -1,4 +1,10 @@
 # Reborn
 Reborn is a AI made in python
 
-Can launch many apps and commands
+Can run many apps and terminal apps like (neofetch)
+
+You can change which programs you want for Reborn to run
+
+
+
+
