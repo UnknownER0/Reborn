@@ -32,6 +32,9 @@ Ubuntu/Debian :
 sudo apt install python3-pip
 
 pip3 install colorama
+
+Void Linux
+sudo xbps-install python3-colorama
 ```
 ## Run with:
 ```
