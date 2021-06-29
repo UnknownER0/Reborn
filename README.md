@@ -30,7 +30,6 @@ sudo pacman -S python-colorama
 
 Ubuntu/Debian :
 sudo apt install python3-pip
-
 pip3 install colorama
 
 Void Linux
