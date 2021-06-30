@@ -49,7 +49,7 @@ def main():
     print(Logo)
     welcome_user()
 
-    print("1.Show system info\n2.Open nano editor\n3.Show me all tasks\n4.Run Cava\n5.Run Atom\n6.Start VScode\n7.Open Firefox\n8.Start Google Chrome\n9.Run Neovim\n10.Run flameshot\n11.Start Krita\n12.Start Thunderbird\n13.Start Discord")
+    print("1.Show system info\n2.Open nano editor\n3.Show me all tasks\n4.Run Cava\n5.Run Atom\n6.Start VScode\n7.Open Firefox\n8.Start Google Chrome\n9.Run Neovim\n10.Run flameshot\n11.Start Krita\n12.Start Thunderbird\n13.Start Discord\n14.Start Gimp")
     action = input("\nWhat can I do for you? > ")
 
     if action == "1":
@@ -76,7 +76,8 @@ def main():
         subprocess.run("thunderbird")
     elif action == "13":
         subprocess.run("discord")
-
+    elif action == "14":
+        subprocess.run("gimp")
 
     else:
         print(f"{error_templ} Not an available option!")
